@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="coding.css">
+    <script src="https://kit.fontawesome.com/bf14b68fbc.js" crossorigin="anonymous"></script>
+    <title>Explore Coding</title>
+</head>
+
+<body>
+
+    <section class="showcase ">
+        <header>
+            <h2 class="logo">why learn how to code</h2>
+            <div class="toggle"></div>
+        </header>
+
+        <img src="pexels-pixabay-270348.jpg" alt="">
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>Why learn</h2>
+            <h3>how to <span>code</span>?</h3>
+            <P>We all have hopes, dreams, and plans for the future. Whether you’re looking for a new opportunity,
+                want
+                to optimize your current job, or are simply searching for a new hobby, coding can help you get
+                closer to
+                your goals. And remember, anyone can learn how to code!</P>
+            <div id="right-side">
+                <h2>Learn <span> skills</span></h2>
+                <h3>that will open doors</h3>
+                <P>Computer and information technology jobs are growing incredibly fast in the United States and
+                    across
+                    the globe. You don't need a Computer Science degree; there are more and more high-paying jobs
+                    emerging every day for newer learners like you.</P>
+            </div>
+            <h3>Make <span>cool</span> stuff</h3>
+            <P>Ever wanted to make an app or a website? Code does that. It can also help you automate a spreadsheet
+                or
+                create new tools for your community. Learning to code makes it possible to imagine the things you
+                want
+                to
+                make and actually build them.</P>
+
+            <div id="right-side">
+                <h3>Have loads of <span>fun</span></h3>
+                <P>Have you ever met a coder who regretted learning to code? Probably not, because learning to code
+                    is
+                    fun
+                    and empowering! Coding also opens up a whole new community and network for you. In fact, we've
+                    heard
+                    the
+                    term "addictive" regularly.</P>
+            </div>
+            <h3> <span>Programming</span> Languages</h3>
+            <p>Programming languages are simply a set of rules defining how to write code. These rules bring machine
+                language closer to human language. It’s easy to think of it as a language the computer can understand.
+
+                Programming languages are used to create web pages and applications. There are many languages used in
+                programming including: <br> <span>
+                    C
+                    Python
+                    JavaScript
+                    Ruby
+                    C++
+                    C#
+                    Scala
+                    Perl
+                    PHP</span></p>
+
+            <div id="right-side">
+                <h3>Learn Coding Through <span>Apps</span> </h3>
+                <p>There are scores of mobile apps that allow you to practice your programming skills and complete
+                    lessons no matter where you are. Some of the most popular coding apps are the following:</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a style="color: rgb(7, 247, 67)" href="coding.html">EXPLORE</a></li>
+            <li><a style="color: rgb(111, 7, 247)" href="web.html">WEB DEVELOPMENT</a></li>
+            <li><a href="contact.html">CONTACT US</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+
+    </script>
+</body>
+
+</html>
